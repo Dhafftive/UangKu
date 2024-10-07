@@ -1,0 +1,23 @@
+/*-----------------------------------*\
+------------ #FONT LIBRARY ------------
+\*-----------------------------------*/
+@font-face {
+    font-family: Poppins-regular;
+    src: url(../font/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: Poppins-semibold;
+    src: url(../font/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: Poppins-bold;
+    src: url(../font/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: Poppins-extra;
+    src: url(../font/Poppins-ExtraBold.ttf);
+}
+@font-face {
+    font-family: Poppins-medium;
+    src: url(../font/Poppins-Medium.ttf);
+}

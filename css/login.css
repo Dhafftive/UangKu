@@ -1,0 +1,187 @@
+body{
+    background: #fff;
+    overflow: hidden;
+    margin: 0;
+}
+.background-items{
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 650px;
+}
+.background-items .rectangle1{
+    width: 3%;
+    right: 160px;
+    border-radius: 0 0 15px 15px;
+    height: 145px;
+    position: absolute;
+    z-index: 1;
+    background: #5255f5;
+}
+.background-items .rectangle2{
+    width: 3%;
+    right: 160px;
+    top: 160px;
+    border-radius: 15px 15px 15px 15px;
+    height: 80px;
+    position: absolute;
+    z-index: 1;
+    background: #5255f5;
+}
+.background-items .rectangle3{
+    width: 5%;
+    right: 50px;
+    border-radius: 0 0 30px 30px;
+    height: 380px;
+    position: absolute;
+    z-index: 1;
+    background: #5255f5;
+}
+.background-items .rectangle4{
+    width: 1%;
+    right: 230px;
+    top: 10px;
+    border-radius: 10px 10px 10px 10px;
+    height: 20px;
+    position: absolute;
+    z-index: 1;
+    background: #5255f5;
+}
+.welcome{
+    width: 35vw;
+    position: absolute;
+    z-index: 3;
+    left: 8vw;
+    bottom: 12vh;
+}
+/*-----------------------------------*\
+------------- # TEXT LOGIN ------------
+\*-----------------------------------*/
+.txt{
+    position: absolute;
+    top: 10vh;
+    left: 3vw;
+}
+.halo{
+    font-family: Poppins-bold;
+    margin: 0;
+    font-size: 30px;
+    color: #6b00e6;
+    line-height: 30px;
+}
+.text-desc{
+    font-family: Poppins-medium;
+    color: #a0a0a0;
+    font-size: 11px;
+    margin-left: 30px;
+    width: 38vw;
+}
+.text-desc span{
+    color: #8c3bf5;
+    font-family: Poppins-bold;
+}
+.text-welcome{
+    position: absolute;
+    z-index: 2;
+    width: 32vw;
+    left: 48vw;
+    top: 45vh;
+    text-align: center;
+}
+.welcome-back{
+    margin: 0;
+    color: #6532f1;
+    font-family: Poppins-bold;
+    font-size: 32px;
+    letter-spacing: -1px;
+}
+.paragraph-login{
+    margin-top: 5px;
+    margin-left: 25px;
+    font-family: Poppins-semibold;
+    font-size: 14px;
+    color: #464646;
+    line-height: 20px;
+    letter-spacing: 0px;
+}
+.regist-txt{
+    position: absolute;
+    font-family: Poppins-medium;
+    font-size: 10px;
+    color: #a1a1a1;
+    bottom: 5vh;
+    left: 20vw;
+}
+.regist-txt a{
+    text-decoration: none;
+    font-family: Poppins-semibold;
+    color: #407be9;
+}
+/*-----------------------------------*\
+------------- # LOGIN FORM ------------
+\*-----------------------------------*/
+form{
+    position: absolute;
+    width: 25vw;
+    height: 40vh;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 56vh;
+    left: 52vw;
+}
+label{
+    display: block;
+    justify-content: left;
+    margin: 15px 0 2px;
+    font-family: Poppins-semibold;
+    font-size: 12px;
+    color: #1a1a1a;
+}
+input[type="text"],
+input[type="password"]{
+    width: 90%;
+    height: 10px;
+    border-radius: 10px;
+    padding: 12px;
+    border: 2px solid #6fa2ee;
+}
+input[type="submit"]{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px auto;
+    width: 110px;
+    height: 35px;
+    font-family: Poppins-semibold;
+    font-size: 13px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background-color: #173177;
+}
+input[type="text"]::placeholder,
+input[type="password"]::placeholder{
+    font-family: Poppins-medium;
+    font-size: 12px;
+    color: #a1a1a1;
+}
+input[type="text"]:focus-within::placeholder,
+input[type="password"]:focus-within::placeholder{
+    opacity: 0;
+}
+input[type="text"]:focus-within,
+input[type="password"]:focus-within{
+    outline: none;
+}
+input[type="text"]:focus,
+input[type="password"]:focus, 
+input[type="text"]:active,
+input[type="password"]:active {
+    background-color: #cdf2fa;
+}
+input[type="submit"]:hover {
+    background-color: #407be9;
+    transition: 0.3s;
+}
